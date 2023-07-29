@@ -11,6 +11,13 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.proto" },
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  {
+    "smartcolumn.nvim",
+    opts = {
+      custom_colorcolumn = {
+        go = { "100", "120" },
+      },
+    },
+  },
 }
