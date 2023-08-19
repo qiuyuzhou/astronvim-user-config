@@ -17,7 +17,9 @@ return {
     opts = {
       custom_colorcolumn = {
         go = { "100", "120" },
+        typescript = { "100", "120" },
       },
     },
   },
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }
